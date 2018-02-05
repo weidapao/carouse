@@ -1,0 +1,309 @@
+:root {
+	
+}
+.backtoTop {
+	right: 0.5rem; bottom: 2rem; display: none; position: fixed; z-index: 999; cursor: pointer;
+}
+.icon-fanhuidingbu {
+	font-size: 3vw;
+}
+.icon-fanhuidingbu:hover {
+	color: rgb(238, 44, 44);
+}
+.header {
+	top: 0px; width: 100%; height: 66px; position: fixed; z-index: 99; box-shadow: 10px 0px 10px #ccc; background-color: rgb(249, 249, 249);
+}
+.logo {
+	margin: 0px 30px;
+}
+.logo-text {
+	background: url("../img/les-logo.jpg") no-repeat 0px 0px; width: 180px; height: 66px; display: inline-block;
+}
+.head-nav {
+	display: inline-block;
+}
+.head-nav li {
+	transition:0.3s; float: left;
+}
+.head-nav li a {
+	padding: 0px 20px; height: 66px; text-align: center; line-height: 66px; display: block;
+}
+.head-nav a.active {
+	color: rgb(0, 0, 128); font-weight: 700; background-color: rgb(231, 232, 233);
+}
+.head-nav a:hover {
+	color: rgb(0, 0, 128); font-weight: 700; background-color: rgb(231, 232, 233);
+}
+.head-nav a:hover {
+	color: rgb(0, 0, 128); font-weight: 700; background-color: rgb(231, 232, 233);
+}
+.banner {
+	width: 100%; height: 20vw; margin-top: 66px; min-height: 300px; box-sizing: border-box; background-image: linear-gradient(135deg, rgb(39, 27, 56), rgb(40, 96, 144), rgb(38, 154, 188)); background-color: rgb(40, 96, 144);
+}
+.banner-container {
+	margin: 0px auto; width: 100%; height: 100%; text-align: center; box-sizing: border-box;
+}
+.lead {
+	color: rgb(255, 255, 255); font-weight: 700;
+}
+.banner-tit {
+	padding: 80px 0px 20px; font-size: 4vw;
+}
+.banner-cont {
+	padding: 30px 0px; font-size: 2vw;
+}
+.banner-btn {
+	margin: 30px 0px;
+}
+.btn-download {
+	padding: 10px 30px; border-radius: 10px; border: 2px solid rgb(255, 255, 255); border-image: none; color: rgb(255, 255, 255); font-size: 1.5vw;
+}
+.btn-download:hover {
+	border: 2px solid rgb(38, 154, 188); border-image: none; color: rgb(255, 255, 255); box-shadow: 0px 0px 15px #fff; background-color: rgb(38, 154, 188);
+}
+.main {
+	margin-top: 20px;
+}
+.leftmenu {
+	width: 25%; box-sizing: border-box;
+}
+.menu-list {
+	background: rgb(249, 249, 249); width: 100%;
+}
+.menu-list ul li {
+	width: 100%; text-align: center; display: block;
+}
+.Menu-item {
+	width: 100%; height: 60px; text-align: center; color: rgb(118, 118, 118); line-height: 60px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; cursor: pointer;
+}
+.menu-pli {
+	position: relative;
+}
+.icon-xiala {
+	top: 23px; right: 20px; position: absolute;
+}
+.icon-shouqi {
+	top: 23px; right: 20px; position: absolute;
+}
+.menu-child {
+	width: 100%; height: auto; display: none;
+}
+.menu-child .menu-citem {
+	width: 100%; height: 60px; text-align: center; color: rgb(134, 159, 177); line-height: 60px; margin-bottom: 1px; cursor: pointer; background-color: rgb(231, 232, 233);
+}
+.menu-citem a {
+	width: 100%; color: rgb(134, 159, 177); display: block;
+}
+.menu-child .menu-citem:hover {
+	color: rgb(255, 255, 255); font-weight: 700; background-color: rgb(40, 96, 144);
+}
+.menu-citem a:hover {
+	color: rgb(255, 255, 255); font-weight: 700; background-color: rgb(40, 96, 144);
+}
+.removes {
+	color: rgb(15, 185, 239) !important; border-left-color: rgb(15, 185, 239); border-left-width: 3px; border-left-style: solid;
+}
+.component-list {
+	padding: 20px; width: 75%; box-sizing: border-box;
+}
+.component-item {
+	margin: 10px; border-radius: 10px; transition:0.5s; width: 15vw; height: 10vw; overflow: hidden; float: left; position: relative; min-height: 150px; min-width: 220px; box-sizing: border-box; box-shadow: 0px 4px 8px 0px rgba(7,17,27,0.2);
+}
+.component-item:hover {
+	box-shadow: 0px 8px 10px 0px rgba(7,17,27,0.3); transform: translateY(-2%);
+}
+.component-item a {
+	color: inherit;
+}
+.card-color {
+	width: 100%; height: 100%;
+}
+.card-icon {
+	margin: 20px auto; left: calc(50% - 1.5vw); top: 3vw; text-align: center; color: rgb(255, 255, 255); font-size: 3vw; font-weight: 700; display: block; position: absolute;
+}
+.orange {
+	background: linear-gradient(to left, rgba(255, 150, 0, 0.7), rgb(255, 150, 0));
+}
+.pink {
+	background: linear-gradient(to left, rgba(255, 115, 155, 0.7), rgb(255, 115, 155));
+}
+.purple {
+	background: linear-gradient(to left, rgba(210, 115, 230, 0.7), rgb(210, 115, 230));
+}
+.blue {
+	background: linear-gradient(to left, rgba(75, 150, 220, 0.7), rgb(75, 150, 220));
+}
+.green {
+	background: linear-gradient(to left, rgba(0, 185, 90, 0.7), rgb(0, 185, 90));
+}
+.cyan {
+	background: linear-gradient(to left, rgba(0, 200, 200, 0.7), rgb(0, 200, 200));
+}
+.card-title {
+	padding: 10px 15px; width: 100%; color: rgb(255, 255, 255); font-weight: 700; box-sizing: border-box;
+}
+.card-cont {
+	background: rgb(255, 255, 255); padding: 10px 20px; transition:0.5s; top: 8vw; width: 100%; height: 8vw; position: absolute; min-height: 120px; box-sizing: border-box;
+}
+.card-cont h3 {
+	
+}
+.card-cont p {
+	padding: 10px 0px; -ms-text-overflow: ellipsis;
+}
+.card-cont:hover {
+	top: 40px;
+}
+@media all and (max-width:1366px)
+{
+.banner {
+	height: 300px;
+}
+.docs-banner {
+	height: 300px;
+}
+.component-item {
+	width: 220px; height: 150px;
+}
+.card-cont {
+	top: 110px; height: 120px;
+}
+}
+.footer {
+	padding: 4rem 0px; text-align: center; bottom: 0px; color: rgb(99, 108, 114) !important; margin-top: 4rem; position: relative; background-color: rgb(247, 247, 247);
+}
+.docs-banner {
+	width: 100%; height: 20vw; margin-top: 66px; min-height: 300px; box-sizing: border-box; background-image: linear-gradient(rgb(16, 78, 139) 0%, rgb(40, 96, 144) 100%); background-color: rgb(40, 96, 144);
+}
+.docsbanner-container {
+	margin: 0px auto; width: 100%; height: 100%; text-align: left; box-sizing: border-box;
+}
+.docsbanner-container h1 {
+	padding: 100px 100px 20px; color: rgb(255, 255, 255); font-size: 4vw;
+}
+.docsbanner-container p {
+	padding: 20px 0px 20px 100px; width: 70%; color: rgb(255, 255, 255); line-height: 1.4; font-size: 2vw;
+}
+.docs-main {
+	width: 100%; margin-top: 20px;
+}
+.docs-leftmenu {
+	padding: 0px 3vw; width: 25%; box-sizing: border-box;
+}
+.docs-leftmenu h3 {
+	padding: 10px 0px; font-size: 1.5vw; font-weight: 400;
+}
+.docs-sidenav li {
+	line-height: 2;
+}
+.docs-leftmenu h3 {
+	padding-left: 18px;
+}
+.docs-sidenav li a {
+	padding-left: 18px;
+}
+.docs-sidenav li:hover a {
+	color: rgb(40, 96, 144); border-left-color: rgb(40, 96, 144); border-left-width: 2px; border-left-style: solid; background-color: transparent;
+}
+.docs-sidenav li.active a {
+	color: rgb(40, 96, 144); border-left-color: rgb(40, 96, 144); border-left-width: 2px; border-left-style: solid; background-color: transparent;
+}
+.docs-content {
+	width: 75%; color: rgb(51, 51, 51); box-sizing: border-box;
+}
+.docs-cont-section {
+	margin-bottom: 40px;
+}
+.docs-item-tit {
+	padding: 40px 0px 20px; line-height: 3vw; font-size: 3vw; font-weight: 400; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.docs-item-p {
+	line-height: 2.5;
+}
+.docs-item-span {
+	line-height: 1.5;
+}
+.icon-display {
+	padding: 20px 100px 20px 0px; width: 100%; box-sizing: border-box;
+}
+.icon-list li {
+	padding: 9px 8px; width: 110px; height: 137px; text-align: center; color: rgb(102, 102, 102); float: left; box-sizing: border-box;
+}
+.icon-list .icon {
+	margin: 10px 0px; transition:font-size 0.25s ease-out; color: rgb(51, 51, 51); line-height: 50px; font-size: 2vw; -webkit-transition: font-size 0.25s ease-out 0s; -moz-transition: font-size 0.25s ease-out 0s;
+}
+.icon-list .icon:hover {
+	font-size: 60px;
+}
+.docs-main pre {
+	border-width: 1px 1px 1px 4px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(204, 204, 204) rgb(88, 116, 156); margin: 10px 0px; padding: 9.5px; border-radius: 4px; border-image: none; text-align: left; color: rgb(51, 51, 51); line-height: 1; display: block; -ms-word-break: break-all; -ms-word-wrap: break-word; box-sizing: border-box; background-color: rgb(245, 245, 245);
+}
+pre.htu {
+	width: 80%; line-height: 1.3; white-space: pre-wrap;
+}
+.docs-main code {
+	
+}
+.docs-main blockquote {
+	margin: 1em 0px; color: rgb(153, 153, 153); padding-left: 0.8em; font-size: 90%; font-style: italic; border-left-color: rgb(233, 233, 233); border-left-width: 4px; border-left-style: solid;
+}
+.docs-example {
+	padding: 15px; border-radius: 4px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 80%; box-sizing: border-box; background-color: rgb(255, 255, 255);
+}
+.docs-example .example-tit {
+	color: rgb(149, 149, 149); font-weight: 700;
+}
+.example-btnlist {
+	margin: 15px 0px;
+}
+.example-btnlist .btn {
+	border-radius: 6px; border: 1px solid rgb(204, 204, 204); border-image: none; text-align: center; color: rgb(51, 51, 51); line-height: 1.4; margin-left: 5px; vertical-align: middle; display: inline-block; cursor: pointer; background-color: rgb(255, 255, 255);
+}
+.example-btnlist .btn-lg {
+	padding: 10px 20px; font-size: 22px;
+}
+.example-btnlist .icon-lg {
+	font-size: 22px;
+}
+.example-btnlist .btn-m {
+	padding: 6px 12px; font-size: 18px;
+}
+.example-btnlist .icon-m {
+	color: red; font-size: 18px;
+}
+.example-btnlist .btn-sm {
+	padding: 5px 10px; font-size: 14px;
+}
+.example-btnlist .icon-sm {
+	color: blue; font-size: 14px;
+}
+.example-btnlist .btn-xs {
+	padding: 2px 5px; font-size: 12px;
+}
+.example-btnlist .icon-xs {
+	color: pink; font-size: 12px;
+}
+pre.example-pre {
+	width: 100%; line-height: 1.3; overflow: hidden; white-space: pre-wrap;
+}
+pre .b {
+	color: rgb(212, 73, 80);
+}
+.docs-item-subtit {
+	margin: 20px 0px; color: rgb(102, 102, 102); line-height: 2vw; font-size: 2vw;
+}
+.example-form table {
+	margin: 20px; width: 50%;
+}
+.btn-primary {
+	border-color: rgb(46, 109, 164) !important; padding: 6px 12px; color: rgb(255, 255, 255) !important; background-color: rgb(51, 122, 183) !important;
+}
+.docs-sub-tit {
+	margin: 10px 0px; line-height: 1.5vw; font-size: 1.5vw;
+}
+.example-steps {
+	width: 100%; height: 500px; position: relative;
+}
+.mlper {
+	margin-left: 5%;
+}

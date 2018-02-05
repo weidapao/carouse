@@ -1,0 +1,231 @@
+* {
+	list-style: none; margin: 0px; padding: 0px;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+hr {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+blockquote {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+pre {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+legend {
+	margin: 0px; padding: 0px;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+textarea {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	font-size: 100%;
+}
+h2 {
+	font-size: 100%;
+}
+h3 {
+	font-size: 100%;
+}
+h4 {
+	font-size: 100%;
+}
+h5 {
+	font-size: 100%;
+}
+h6 {
+	font-size: 100%;
+}
+address {
+	font-style: normal;
+}
+cite {
+	font-style: normal;
+}
+dfn {
+	font-style: normal;
+}
+em {
+	font-style: normal;
+}
+var {
+	font-style: normal;
+}
+code {
+	font-family: courier new, courier, monospace;
+}
+kbd {
+	font-family: courier new, courier, monospace;
+}
+pre {
+	font-family: courier new, courier, monospace;
+}
+samp {
+	font-family: courier new, courier, monospace;
+}
+small {
+	font-size: 12px;
+}
+ul {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+legend {
+	color: rgb(0, 0, 0);
+}
+fieldset {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+button {
+	font-size: 100%;
+}
+input {
+	font-size: 100%;
+}
+select {
+	font-size: 100%;
+}
+textarea {
+	font-size: 100%;
+}
+table {
+	font-size: inherit; border-collapse: collapse; border-spacing: 0;
+}
+body {
+	font: 12px/20px "Microsoft YaHei", Arial, arial, sans-serif; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+button {
+	font: 12px/20px "Microsoft YaHei", Arial, arial, sans-serif; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+input {
+	font: 12px/20px "Microsoft YaHei", Arial, arial, sans-serif; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+select {
+	font: 12px/20px "Microsoft YaHei", Arial, arial, sans-serif; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+textarea {
+	font: 12px/20px "Microsoft YaHei", Arial, arial, sans-serif; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+input {
+	font-size: 100%;
+}
+select {
+	font-size: 100%;
+}
+textarea {
+	font-size: 100%;
+}
+button {
+	cursor: pointer;
+}
+a {
+	color: rgb(68, 68, 68); text-decoration: none;
+}
+a:hover {
+	color: rgb(239, 49, 37); text-decoration: none;
+}
+a:focus {
+	
+}
+.fn-left {
+	display: inline;
+}
+.fn-right {
+	display: inline;
+}
+.fn-left {
+	float: left;
+}
+.fn-right {
+	float: right;
+}
+.fn-clear {
+	
+}
+.clear {
+	
+}
+.fn-clear::before {
+	height: 0px; line-height: 0; display: block; content: "";
+}
+.clear::before {
+	height: 0px; line-height: 0; display: block; content: "";
+}
+.fn-clear::after {
+	height: 0px; line-height: 0; display: block; content: "";
+}
+.clear::after {
+	height: 0px; line-height: 0; display: block; content: "";
+}
+.fn-clear::after {
+	clear: both;
+}
+.clear::after {
+	clear: both;
+}
+.fn-hide {
+	display: none;
+}

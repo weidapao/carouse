@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="jquery.min.js"></script> 
+  <link rel="stylesheet" type="text/css" href="seamlessCarousel.css" />
+  <script src="seamlessCarousel.js" type="text/javascript"></script>
+  <script src="common.js"></script> 
+</head>
+<body>
+  <div class="carousel-banner">
+    <ul class="img"> 
+      <li><a  href="#"><img src="4.jpg" /></a></li>
+  
+      <li><a  href="#"><img src="5.jpg" /></a></li>
+  
+      <li><a  href="#"><img src="6.jpg" /></a></li>
+  
+    </ul>
+    
+    <ul class="num">
+    </ul>
+    
+    <div class="btn btn_l"><</div>
+  
+    <div class="btn btn_r">></div>		
+  </div>
+</body>
+<script>
+   $(function () {
+	Les.seamlessCarousel({
+		width:680,
+		height:250	
+	});          
+});
+</script>
+</html>
